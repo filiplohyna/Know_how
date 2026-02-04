@@ -41,7 +41,7 @@ body {
 }
 
 .logo-img {
-    height: 48px;
+    height: 85px;
     width: auto;
 }
 
@@ -602,17 +602,16 @@ body {
     width: 8rem;
     height: 8rem;
     margin: 0 auto 1.5rem;
-    background: linear-gradient(to bottom right, #2563eb, #60a5fa);
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
 }
 
-.partner-abbr {
-    font-size: 1.875rem;
-    font-weight: 700;
-    color: #fff;
+.partner-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .partner-name {
